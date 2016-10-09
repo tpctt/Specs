@@ -1,17 +1,17 @@
 Pod::Spec.new do |s|
-  s.name                  = "LZRelayoutButton"
+  s.name                  = "HYBPhotoPickerManager"
   s.version               = "1.0.0"
-  s.summary               = "UIButton 支持上下显示图片或者 图片靠右显示"
-  s.homepage              = "http://https://github.com/timRabbit/LZRelayoutButton"
-  s.social_media_url      = "http://https://github.com/timRabbit/LZRelayoutButton"
+  s.summary               = "图片选择封装"
+  s.homepage              = "http://https://github.com/timRabbit/HYBPhotoPickerManager"
+  s.social_media_url      = "http://https://github.com/timRabbit/HYBPhotoPickerManager"
   s.platform     = :ios,'6.0'
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { " tim" => "491590253@qq.com" }
-  s.source                = { :git => "https://github.com/timRabbit/LZRelayoutButton.git",:tag => "1.0.0"
+  s.source                = { :git => "https://github.com/timRabbit/HYBPhotoPickerManager.git",:tag => "1.0.0"
     #:commit => "cebd0fe6d6a0e087cf7d5ed86a572d31f9e8af14" 
     }
-  s.source_files = 'LZRelayoutButton/LZRelayoutButton/LZRelayoutButton/*.{h,m,mm}'
-  #s.resources   = "YMCitySelect/*.{png,bundle}"
+  s.source_files = '*.{h,m,mm}'
+  s.resources   = "*.{png,bundle}"
 
   s.ios.deployment_target = "6.0"
   s.requires_arc          = true
