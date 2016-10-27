@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios,'6.0'
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { " tim" => "491590253@qq.com" }
-  s.source                = { :git => "https://github.com/timRabbit/DesktopADView2.git",:tag => "2.2.3" }
+  s.source                = { :git => "https://github.com/timRabbit/DesktopADView2.git",:tag => s.version.to_s  }
   s.ios.deployment_target = "6.0"
   s.requires_arc          = true
   s.framework             = "CoreFoundation","Foundation","CoreGraphics","Security","UIKit"
