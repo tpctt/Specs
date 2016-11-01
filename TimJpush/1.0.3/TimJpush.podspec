@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "TimJpush"
-  s.version               = "1.0.1"
+  s.version               = "1.0.3"
   s.summary               = "简化推送的代码逻辑,这个使用的 jpush 作为拓展,只需要设置3方 sdk 的 key 和 一个 收到推送的 block 即可"
   s.homepage              = "https://github.com/timRabbit/TimJpush"
   s.social_media_url      = "https://github.com/timRabbit/TimJpush"
