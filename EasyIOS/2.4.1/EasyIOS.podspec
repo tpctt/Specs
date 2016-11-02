@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios,'6.0'
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { "zhuchao" => "zhuchao@iosx.me" }
-  s.source                = { :git => "https://github.com/zhuchaowe/EasyIOS.git",:tag => s.version.to_s }
+  s.source                = { :git => "https://github.com/timRabbit/EasyIOS.git",:tag => s.version.to_s }
 #  s.source_files = '*.{h,m,mm}'
  # s.source_files = 'Easy/**/*.{h,m,mm}'
  # s.source_files = 'Extend/**/*.{h,m,mm}'
