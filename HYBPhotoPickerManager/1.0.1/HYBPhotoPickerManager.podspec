@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios,'6.0'
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { " tim" => "491590253@qq.com" }
-  s.source                = { :git => "https://github.com/timRabbit/HYBPhotoPickerManager.git",:tag => "1.0.1"
+  s.source                = { :git => "https://github.com/timRabbit/HYBPhotoPickerManager.git",:tag => s.version.to_s 
     #:commit => "cebd0fe6d6a0e087cf7d5ed86a572d31f9e8af14" 
     }
   s.source_files = '*.{h,m,mm}'
