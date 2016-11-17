@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TimCore'
-  s.version          = "1.0.6"
+  s.version          = "1.0.7"
   s.summary          = 'ShareSDK is the most comprehensive Social SDK in the world,which share easily with 40+ platforms.'
   s.license          = 'MIT'
   s.author           = { "Jinghuang Liu" => "liujinghuang@icloud.com" }
@@ -75,6 +75,24 @@ Pod::Spec.new do |s|
 
 
     end
+
+
+ s.subspec 'TimBaseListViewModel' do |sp|
+        # sp.vendored_frameworks = 'ShareSDK/Support/Required/ShareSDKConnector.framework'
+        sp.libraries = 'icucore', 'z', 'stdc++'
+        # sp.resources = 'ShareSDK/Support/Required/ShareSDK.bundle'
+        sp.source_files = 'Classes/TimBaseListViewModel/**/*.{h,m,mm}' 
+        
+        sp.dependency 'TimCore/TimAFAppConnectClient'
+        # sp.dependency 'TimCore/TimAFAppConnectClient'
+
+        sp.dependency 'TMCache'
+        sp.dependency 'ReactiveCocoa','~>2.5'
+        
+
+
+    end
+
 
 
 
