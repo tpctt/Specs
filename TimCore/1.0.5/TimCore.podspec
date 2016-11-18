@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author           = { "Jinghuang Liu" => "liujinghuang@icloud.com" }
 
   s.homepage         = 'http://www.mob.com'
-  s.source           = { :git => "https://github.com/timRabbit/TimCore.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/tpctt/TimCore.git", :tag => s.version.to_s }
   s.platform         = :ios
   s.ios.deployment_target = "8.0"
   s.frameworks       = 'UIKit', 'JavaScriptCore','SystemConfiguration','CoreTelephony'

@@ -2,12 +2,12 @@ Pod::Spec.new do |s|
   s.name                  = "YMCitySelect"
   s.version               = "1.4.3"
   s.summary               = "选择城市的 pod , 这个版本 支持横竖屏切换"
-  s.homepage              = "https://github.com/timRabbit/YMCitySelect"
-  s.social_media_url      = "https://github.com/timRabbit/YMCitySelect"
+  s.homepage              = "https://github.com/tpctt/YMCitySelect"
+  s.social_media_url      = "https://github.com/tpctt/YMCitySelect"
   s.platform     = :ios,'6.0'
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { " tim" => "491590253@qq.com" }
-  s.source                = { :git => "https://github.com/timRabbit/YMCitySelect.git",:tag =>  s.version.to_s   }
+  s.source                = { :git => "https://github.com/tpctt/YMCitySelect.git",:tag =>  s.version.to_s   }
   s.ios.deployment_target = "6.0"
   s.requires_arc          = true
   s.framework             = "CoreFoundation","Foundation","CoreGraphics","Security","UIKit"

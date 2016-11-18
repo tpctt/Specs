@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
   s.version          = "1.0.7"
   s.summary          = 'ShareSDK is the most comprehensive Social SDK in the world,which share easily with 40+ platforms.'
   s.license          = 'MIT'
-  s.author           = { "Jinghuang Liu" => "liujinghuang@icloud.com" }
+  s.author           = { "Tim" => "491590253@qq.com" }
 
   s.homepage         = 'http://www.mob.com'
-  s.source           = { :git => "https://github.com/timRabbit/TimCore.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/tpctt/TimCore.git", :tag => s.version.to_s }
   s.platform         = :ios
   s.ios.deployment_target = "8.0"
   s.frameworks       = 'UIKit', 'JavaScriptCore','SystemConfiguration','CoreTelephony'

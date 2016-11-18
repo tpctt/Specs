@@ -2,12 +2,12 @@ Pod::Spec.new do |s|
   s.name                  = "TimJpush"
   s.version               = "1.0.5"
   s.summary               = "简化推送的代码逻辑,这个使用的 jpush 作为拓展,只需要设置3方 sdk 的 key 和 一个 收到推送的 block 即可"
-  s.homepage              = "https://github.com/timRabbit/TimJpush"
-  s.social_media_url      = "https://github.com/timRabbit/TimJpush"
+  s.homepage              = "https://github.com/tpctt/TimJpush"
+  s.social_media_url      = "https://github.com/tpctt/TimJpush"
   s.platform     = :ios,'6.0'
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { " tim" => "491590253@qq.com" }
-  s.source                = { :git => "https://github.com/timRabbit/TimJpush.git",:tag => s.version.to_s  }
+  s.source                = { :git => "https://github.com/tpctt/TimJpush.git",:tag => s.version.to_s  }
   s.ios.deployment_target = "6.0"
   s.requires_arc          = true
   s.framework             = "CoreFoundation","Foundation","CoreGraphics","Security","UIKit"
