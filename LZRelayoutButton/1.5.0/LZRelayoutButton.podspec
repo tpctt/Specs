@@ -1,22 +1,22 @@
 Pod::Spec.new do |s|
   s.name                  = "LZRelayoutButton"
-  s.version               = "1.0.1"
+  s.version               = "1.5.0"
   s.summary               = "UIButton 支持上下显示图片或者 图片靠右显示"
-  s.homepage              = "http://https://github.com/tpctt/LZRelayoutButton"
-  s.social_media_url      = "http://https://github.com/tpctt/LZRelayoutButton"
+  s.homepage              = "https://github.com/tpctt/LZRelayoutButton"
+  s.social_media_url      = "https://github.com/tpctt/LZRelayoutButton"
   s.platform     = :ios,'6.0'
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { " tim" => "491590253@qq.com" }
   s.source                = { :git => "https://github.com/tpctt/LZRelayoutButton.git",:tag => s.version.to_s 
     #:commit => "cebd0fe6d6a0e087cf7d5ed86a572d31f9e8af14" 
     }
-  s.source_files = 'LZRelayoutButton/LZRelayoutButton/LZRelayoutButton/*.{h,m,mm}'
+  s.source_files = 'Classess/**/*.{h,m,mm}'
   #s.resources   = "YMCitySelect/*.{png,bundle}"
 
   s.ios.deployment_target = "6.0"
   s.requires_arc          = true
   s.framework             = "CoreFoundation","Foundation","CoreGraphics","Security","UIKit"
-  s.library		= "z.1.1.3","stdc++","sqlite3"
+  s.library   = "z.1.1.3","stdc++","sqlite3"
  
   #s.subspec 'HYBPhotoPickerManager' do |sp|
   #sp.source_files = 'YMCitySelect/*.{h,m,mm}'
