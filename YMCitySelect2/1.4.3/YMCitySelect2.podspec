@@ -1,18 +1,18 @@
 Pod::Spec.new do |s|
-  s.name                  = "YMCitySelect"
+  s.name                  = "YMCitySelect2"
   s.version               = "1.4.3"
-  s.summary               = "选择城市的 pod , 这个版本 支持横竖屏切换"
-  s.homepage              = "https://github.com/tpctt/YMCitySelect"
-  s.social_media_url      = "https://github.com/tpctt/YMCitySelect"
+  s.summary               = "选择城市的 pod , 这个版本 支持横竖屏切换,支持更多属性设置和屏幕适配"
+  s.homepage              = "https://github.com/tpctt/YMCitySelect2"
+  s.social_media_url      = "https://github.com/tpctt/YMCitySelect2"
   s.platform     = :ios,'6.0'
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { " tim" => "491590253@qq.com" }
-  s.source                = { :git => "https://github.com/tpctt/YMCitySelect.git",:tag =>  s.version.to_s   }
+  s.source                = { :git => "https://github.com/tpctt/YMCitySelect2.git",:tag =>  s.version.to_s   }
   s.ios.deployment_target = "6.0"
   s.requires_arc          = true
   s.framework             = "CoreFoundation","Foundation","CoreGraphics","Security","UIKit"
   s.library		= "z.1.1.3","stdc++","sqlite3"
-  s.source_files = 'YMCitySelect'
+  s.source_files = 'YMCitySelect/**/*.{h,m,mm}'
   s.resources = 'YMCitySelect/*.{bundle}'
 
 
