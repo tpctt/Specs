@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
         # sp.resources = 'ShareSDK/Support/Required/ShareSDK.bundle'
        sp.source_files = 'Classes/TimShare/**/*.{h,m,mm}' 
 
-       sp.dependency 'TimCore/TimCore'
+       sp.dependency 'TimCore'
 
        sp.dependency 'XAspect'
 
