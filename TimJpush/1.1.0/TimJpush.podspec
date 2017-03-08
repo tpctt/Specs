@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #s.resources = 'SIDADView/*.{bundle}'
   s.dependency 'XAspect'
   s.dependency 'TimCore/TimCore','~>1.2.12'
-  s.dependency 'JPush-iOS-SDK','~>3.0.2'
+  s.dependency 'JPush','~>3.0.2'
 
   s.ios.frameworks = 'UserNotifications'
 
