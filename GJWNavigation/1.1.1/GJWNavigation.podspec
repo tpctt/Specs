@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "GJWNavigation"
-  s.version               = "1.1.0"
+  s.version               = "1.1.1"
   s.summary               = "它允许你在各种情况下动画改变UINavigationBar的backgroundColor。"
   s.homepage              = "https://github.com/timRabbit/GJWNavigationDemo"
   s.social_media_url      = "https://github.com/timRabbit/GJWNavigationDemo"
