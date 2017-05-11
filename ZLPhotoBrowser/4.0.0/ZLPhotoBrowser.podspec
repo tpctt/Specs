@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios,'8.0'
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { " tim" => "491590253@qq.com" }
-  s.source                = { :git => "https://github.com/timRabbit/PhotoBrowser.git",:tag => s.version.to_s  }
+  s.source                = { :git => "https://github.com/timRabbit/ZLPhotoBrowser.git",:tag => s.version.to_s  }
   s.ios.deployment_target = "8.0"
   s.requires_arc          = true
   s.framework             = "CoreFoundation","Foundation","CoreGraphics","Security","UIKit"
