@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc          = true
   s.framework             = "CoreFoundation","Foundation","CoreGraphics","Security","UIKit"
   s.library		= "z.1.1.3","stdc++","sqlite3"
-  s.source_files = 'ZLPhotoBrowser/PhotoBrowser'
+  s.source_files = 'ZLPhotoBrowser/PhotoBrowser/*.*'
   #s.resources = 'SIDADView/*.{bundle}'
   # s.dependency 'XAspect'
   # s.dependency 'TimCore/TimCore','~>1.2.12'
