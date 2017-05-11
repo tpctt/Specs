@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
-  s.name                  = "PhotoBrowser"
-  s.version               = "4.0.0"
-  s.summary               = "PhotoBrowser"
-  s.homepage              = "https://github.com/timRabbit/PhotoBrowser"
-  s.social_media_url      = "https://github.com/timRabbit/PhotoBrowser"
+  s.name                  = "ZLPhotoBrowser"
+  s.version               = "2.5.0"
+  s.summary               = "ZLPhotoBrowser"
+  s.homepage              = "https://github.com/timRabbit/ZLPhotoBrowser"
+  s.social_media_url      = "https://github.com/timRabbit/ZLPhotoBrowser"
   s.platform     = :ios,'8.0'
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { " tim" => "491590253@qq.com" }
@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
   s.requires_arc          = true
   s.framework             = "CoreFoundation","Foundation","CoreGraphics","Security","UIKit"
   s.library		= "z.1.1.3","stdc++","sqlite3"
-  s.source_files = 'PhotoBrowser/PhotoBrowser'
+  s.source_files = 'ZLPhotoBrowser/PhotoBrowser'
   #s.resources = 'SIDADView/*.{bundle}'
   # s.dependency 'XAspect'
   # s.dependency 'TimCore/TimCore','~>1.2.12'
   # s.dependency 'JPush-iOS-SDK','~>3.0.2'
 
-  s.ios.frameworks = 'UserNotifications'
+  # s.ios.frameworks = 'UserNotifications'
 
 
 #  s.subspec 'YMCitySelect' do |sp|
