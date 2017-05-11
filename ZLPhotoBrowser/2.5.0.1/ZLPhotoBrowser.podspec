@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                  = "ZLPhotoBrowser"
-  s.version               = "2.5.0 == ZLPhotoBrowser 原来的2.0.2 "
-  s.summary               = "ZLPhotoBrowser"
+  s.version               = "2.5.0.1"
+  s.summary               = "ZLPhotoBrowser  == ZLPhotoBrowser 原来的2.0.2  "
   s.homepage              = "https://github.com/timRabbit/ZLPhotoBrowser"
   s.social_media_url      = "https://github.com/timRabbit/ZLPhotoBrowser"
   s.platform     = :ios,'8.0'
