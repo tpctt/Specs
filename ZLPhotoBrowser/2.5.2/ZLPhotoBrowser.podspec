@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.library		= "z.1.1.3","stdc++","sqlite3"
  # s.source_files = 'PhotoBrowser/PhotoBrowser/*.*'
   s.source_files = 'PhotoBrowser'
-  s.resources = 'PhotoBrowser/resource/*.{bundle,xib}'
+  s.resources = 'PhotoBrowser/resource/*.*'
  
   # s.dependency 'XAspect'
   # s.dependency 'TimCore/TimCore','~>1.2.12'
