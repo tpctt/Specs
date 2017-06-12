@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.framework             = "CoreFoundation","Foundation","CoreGraphics","Security","UIKit"
   s.library		= "z.1.1.3","stdc++","sqlite3"
  # s.source_files = 'PhotoBrowser/PhotoBrowser/*.*'
- # s.resources = 'PhotoBrowser/resource/*.{bundle}'
   s.source_files = 'PhotoBrowser'
-
+  s.resources = 'PhotoBrowser/resource/*.{bundle,xib}'
+ 
   # s.dependency 'XAspect'
   # s.dependency 'TimCore/TimCore','~>1.2.12'
   # s.dependency 'JPush-iOS-SDK','~>3.0.2'
