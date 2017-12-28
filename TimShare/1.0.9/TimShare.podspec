@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author           = { "tim" => "491590253@qq.com" }
 
   s.homepage         = 'http://www.mob.com'
-  s.source           = { :git => "https://github.com/tpctt/TimShare.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/tpctt/TimShare.git", :tag => "1.0.8" }
   s.platform         = :ios
   s.ios.deployment_target = "8.0"
   s.frameworks       = 'UIKit', 'JavaScriptCore','SystemConfiguration','CoreTelephony'
