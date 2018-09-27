@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TimShare'
   s.version          = "1.1.0"
-  s.summary          = 'TimShare 基于 timcore 做的 share 模块,方便分享.支持 mob_sharesdk 4.1.0'
+  s.summary          = 'TimShare 基于 timcore 做的 share 模块,方便分享.支持 mob_sharesdk 4.0.4'
   s.license          = 'MIT'
   s.author           = { "tim" => "491590253@qq.com" }
 
@@ -27,13 +27,13 @@ Pod::Spec.new do |s|
 
        sp.dependency 'XAspect'
 
-        sp.dependency 'mob_sharesdk'
+        sp.dependency 'ShareSDK3'
         sp.dependency 'MOBFoundation'
-        sp.dependency 'mob_sharesdk/ShareSDKUI'
-        sp.dependency 'mob_sharesdk/ShareSDKPlatforms/QQ'
-        sp.dependency 'mob_sharesdk/ShareSDKPlatforms/SinaWeibo'
-        sp.dependency 'mob_sharesdk/ShareSDKPlatforms/WeChat'
-        sp.dependency 'mob_sharesdk/ShareSDKExtension'
+        sp.dependency 'ShareSDK3/ShareSDKUI'
+        sp.dependency 'ShareSDK3/ShareSDKPlatforms/QQ'
+        sp.dependency 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+        sp.dependency 'ShareSDK3/ShareSDKPlatforms/WeChat'
+        sp.dependency 'ShareSDK3/ShareSDKExtension'
 
 
 
