@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.frameworks       = 'UIKit', 'JavaScriptCore','SystemConfiguration','CoreTelephony'
   s.libraries        = 'icucore', 'z.1.2.5', 'stdc++'
 
-  s.default_subspecs    = 'mob_sharesdk'
+  s.default_subspecs    = 'TimShare'
   # s.vendored_frameworks = 'ShareSDK/ShareSDK.framework'
 
   # 核心模块
@@ -27,13 +27,13 @@ Pod::Spec.new do |s|
 
        sp.dependency 'XAspect'
 
-        sp.dependency 'ShareSDK3'
+        sp.dependency 'mob_sharesdk'
         sp.dependency 'MOBFoundation'
-        sp.dependency 'ShareSDK3/ShareSDKUI'
-        sp.dependency 'ShareSDK3/ShareSDKPlatforms/QQ'
-        sp.dependency 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
-        sp.dependency 'ShareSDK3/ShareSDKPlatforms/WeChat'
-        sp.dependency 'ShareSDK3/ShareSDKExtension'
+        sp.dependency 'mob_sharesdk/ShareSDKUI'
+        sp.dependency 'mob_sharesdk/ShareSDKPlatforms/QQ'
+        sp.dependency 'mob_sharesdk/ShareSDKPlatforms/SinaWeibo'
+        sp.dependency 'mob_sharesdk/ShareSDKPlatforms/WeChat'
+        sp.dependency 'mob_sharesdk/ShareSDKExtension'
 
 
 
