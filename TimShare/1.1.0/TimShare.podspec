@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TimShare'
   s.version          = "1.1.0"
-  s.summary          = 'TimShare 基于 timcore 做的 share 模块,方便分享.支持 sharesdk4.0.4'
+  s.summary          = 'TimShare 基于 timcore 做的 share 模块,方便分享.支持 mob_sharesdk 4.1.0'
   s.license          = 'MIT'
   s.author           = { "tim" => "491590253@qq.com" }
 
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.frameworks       = 'UIKit', 'JavaScriptCore','SystemConfiguration','CoreTelephony'
   s.libraries        = 'icucore', 'z.1.2.5', 'stdc++'
 
-  s.default_subspecs    = 'TimShare'
+  s.default_subspecs    = 'mob_sharesdk'
   # s.vendored_frameworks = 'ShareSDK/ShareSDK.framework'
 
   # 核心模块
